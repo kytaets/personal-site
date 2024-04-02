@@ -1,0 +1,102 @@
+/* Backgrounds */
+.gradient-background {
+    background-size: 180% 180%;
+    background: rgb(227,174,238);
+    background: radial-gradient(circle, rgba(227,174,238,1) 8%, rgba(148,180,233,1) 100%);
+}
+
+.blue-background {
+    background-size: 180% 180%;
+    background: #bde2ff;
+}
+
+.violet-background {
+    background-size: 180% 180%;
+    background: #9ECCFF;
+}
+/* Backgrounds */
+
+/* Fonts */
+h1, h2 {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+.h1-script {
+    font-family: "Oleo Script", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p {
+    font-family: "Merriweather Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+/* Fonts */
+
+/* Resposiveness */
+@media (max-width: 800px) {
+    .row {
+        text-align: center;
+    }
+    .col-img {
+        margin: 0;
+        justify-content: center;
+    }
+    .col-img-hi {
+        position: static !important;
+    }
+    .row * {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .phone-container {
+        justify-content: center;
+    }
+    .email-container {
+        justify-content: center !important;
+    }
+}
+/* Resposiveness */
+
+.container-centered {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-img {
+    display: flex;
+    justify-content: end;
+    margin-right: 20px;
+    position: relative;
+}
+
+.col-img-hi {
+    position: relative;
+    top: -110px;
+}
+
+.phone-img {
+    height: 200px;
+    width: auto;
+}
+
+.email-img {
+    width: 200px;
+    height: auto;
+}
+
